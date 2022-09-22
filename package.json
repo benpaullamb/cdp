@@ -1,0 +1,17 @@
+{
+  "name": "monocd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node ./src/install.js",
+    "postinstall": "npm run setup"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^8.0.3"
+  }
+}
